@@ -35,7 +35,9 @@
      Тем самым блокируется доступ для этих устройств." Это говорит нам что нужно повысит
      количество пакетов на еденицу </span>
      <p>В линуксе это команда sudo iptables -t mangle -A POSTROUTING -j TTL --ttl-set 65 </p>
-     <p>В windows надо</p>
+     <p>В windows надо запустить regedit.exe найти ветку HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\Tcpip\Parameters
+	 создаем DWORD (31bit) присваеваем ему «DefaultTTL» далее присваеваем ему значение 65 и перезагружаемся</p>
+	<p>Проверял лично работает! Как изменить ttl написанно на сайте майкрософт</p>
 </main>
 
 <footer>
