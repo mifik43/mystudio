@@ -79,6 +79,7 @@ h1 {
 
 
 .ikra {
+    text-align: left;
 	font-size: 16px;
 	font-family: "Cambria", "Hoefler Text", "Liberation Serif", "Times", "Times New Roman", "serif";
 	/*background-image: url("img/ikra.jpg");*/
@@ -103,5 +104,10 @@ h1 {
 	font-family: "Cambria", "Hoefler Text", "Liberation Serif", "Times", "Times New Roman", "serif";
 	/*background-image: url("img/ikra.jpg");*/
 }
-
+inet {
+    text-align: left;
+    font-size: 16px;
+    font-family: "Cambria", "Hoefler Text", "Liberation Serif", "Times", "Times New Roman", "serif";
+    /*background-image: url("img/ikra.jpg");*/
+}
 
