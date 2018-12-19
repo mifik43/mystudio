@@ -12,37 +12,34 @@ body {
 
   font-weight: bold;
   text-align: center;
-	box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+  box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
 }
 
 body > * {
-  padding: 10px;
-  flex: 1 100%;
+    padding: 10px;
+    flex: 1 100%;
 	text-align: center;
 	box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
 }
 
 header {
 
-  font-size: 20px;
+    font-size: 20px;
 	text-align: center;
 	box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
 
 }
 
 footer {
-
 	text-align: center;
 	box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
 }
 
 main {
-  text-align: left;
-
-	text-align: center;
+   	text-align: center;
 	box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
-  width: auto;
-  height: auto;
+    width: auto;
+    height: auto;
 }
 
 nav {
@@ -52,8 +49,8 @@ nav {
 }
 
 navigation {
-
 	justify-content: space-around;
+
 	text-align: center;
 	box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
 }
