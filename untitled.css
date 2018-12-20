@@ -101,10 +101,19 @@ h1 {
 	font-family: "Cambria", "Hoefler Text", "Liberation Serif", "Times", "Times New Roman", "serif";
 	/*background-image: url("img/ikra.jpg");*/
 }
-inet {
+.inet {
     text-align: left;
     font-size: 16px;
     font-family: "Cambria", "Hoefler Text", "Liberation Serif", "Times", "Times New Roman", "serif";
     /*background-image: url("img/ikra.jpg");*/
 }
-
+.Windows {
+    text-align: left;
+    font-size: 16px;
+    font-family: "Cambria", "Hoefler Text", "Liberation Serif", "Times", "Times New Roman", "serif";
+}
+.anon {
+    text-align: left;
+    font-size: 16px;
+    font-family: "Cambria", "Hoefler Text", "Liberation Serif", "Times", "Times New Roman", "serif";
+}
