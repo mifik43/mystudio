@@ -1,0 +1,60 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <title></title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="untitled.css" type="text/css"/>
+    <link href="/img/favicon.ico" rel="icon" type="image/x-icon" />
+</head>
+<body>
+<header>
+    <span>Маленькая студия всего...</span>
+    <p><a src="img/"></a></p>
+</header>
+<navigation>
+    <span><a href="index.html">Главная</a></span>
+    <span><a href="windows.html">Windows шпаргалки</a></span>
+    <span><a href="linux.html">Linux шпаргалки</a></span>
+</navigation>
+
+<nav>
+    <ul>
+        <li><a href="index.html">Главная</a></li>
+        <li><a href="stat.html">Статьи</a></li>
+        <li><a href="vid.html">ССылки на видосы</a></li>
+        <li><a href="soft.html">Ссылки на софт</a></li>
+        <li><a href="teleassist.html">Удаленная помощь с вашим пк</a></li>
+        <li><a href="unst.html">Институты онлайн</a> </li>
+    </ul>
+</nav>
+<main>
+    <p>    Всем привет! В этой статье я покажу работу инструмента, который поможет получить доступ к аккаунтам в Instagram путем перебора паролей, его особенностью является обход ограничения на ввод неверных паролей.
+        Instashell - это скрипт для выполнения брутфорс атак на сервис Instagram, скрипт может обойти ограничения на перебор паролей, поэтому он может тестировать бесконечное количество паролей.
+        Скрипт использует Android ApkSignature для выполнения аутентификации, дополнительно используется TOR для изменения IP-адреса после блокировки, для продолжения атаки.
+        Устанавлием компоненты Tor:
+        apt-get update
+        apt-get install tor
+        Установка Instashell в Kali Linux (версия на английском):
+        git clone https://github.com/thelinuxchoice/instashell
+        cd instashell
+        chmod +x instashell.sh
+        Специальная, русифицированная версия!
+        git clone https://github.com/XIshArkIX/instashell
+        cd instashell
+        chmod +x instashell.sh
+        Запуск и использование:
+        ./instashell.sh
+        service tor start
+        Для запуска перебора необходимо указать имя аккаунта на сервисе и словарь, по умолчанию используется словарь Instashell, его можно дополнить или заменить (как у нас на скрине)
+        Скрипт успешно отрабатывает, предоставляя валидный пароль от аккаунта.
+
+        В системе обязательно должен быть установлен TOR!
+
+        собственно я еще не опробовал данный способ, но руки чещутся) 
+    </p>
+</main>
+<footer>
+    <span>mifik43 2018</span>
+</footer>
+</body>
+</html>
